@@ -26,6 +26,10 @@
 				font-size: 0.9em;
 				padding: 0.625em 0;
 
+				&.active{
+					color: _palette(accent);
+				}
+
 				&:hover {
 					color: _palette(accent);
 				}
@@ -63,6 +67,8 @@
 						}
 					}
 				}
+
+				
 			}
 		}
 
