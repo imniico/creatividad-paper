@@ -20,15 +20,74 @@
 			<div class="inner">
 
 				<section>
+					<!-- <button id="myBtn">Nuevo</button>
+					<div id="myModal" class="modal">
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<p>Some text in the Modal..</p>
+						</div>
+					</div> -->
 
 					<section>
-						<header class="major">
-							<h2>Blog</h2>
+						<header class="major row"
+							style="margin: 0 0 1em 0; display: flex; justify-content: space-between;">
+							<h2 style="margin: 0; padding: 0;"> Blog (Prototipo) </h2>
+
+							<button style="margin: 0; padding: 0 1em;" class="button primary" id="myBtn"> Nuevo Post
+							</button>
+							<div id="myModal" class="modal" style="display: none; padding: 0; margin:0;">
+								<div class="modal-content">
+									
+									<form>
+										<div class="row gtr-uniform">
+											
+											<div class="col-6 col-12-xsmall">
+												<input type="text" value="" placeholder="Título">
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<input type="text" value="" placeholder="Nombre">
+											</div>
+
+											<div class="col-12">
+												<select>
+													<option hidden value="">Seleccionar categoría</option>
+													<option value="1">Herramienta</option>
+													<option value="1">Descrubrimientos</option>
+													<option value="1">Resultados</option>
+													<option value="1">Otros</option>
+												</select>
+											</div>
+
+											<div class="col-12">
+												<a style="margin: 0; padding: 0 1em;" href="#"
+													class="button icon solid fa-download">Subir imagen</a>
+													
+											</div>
+
+
+
+											<div class="col-12">
+												<textarea name="demo-message" id="demo-message"
+													placeholder="Descripción..." rows="6"></textarea>
+											</div>
+
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" value="Enviar" class="primary"></li>
+													<li><input type="reset" value="Cancelar" class="close"></li>
+													
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+
 						</header>
 
 						<div class="row" style="margin: 0 0 2em 0;">
-							<div class="col-6 col-11-small" style="padding: 0;">
-								<input  type="text" name="demo-name" id="demo-name" value="" placeholder="Búsqueda...">
+							<div class="col-4 col-5-xlarge col-11-small" style="padding: 0;">
+								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Búsqueda...">
 							</div>
 							<div class="col-1" style=" display: flex; justify-content: end; padding: 0;">
 								<a class="button primary"> <i class="fa-solid fa-magnifying-glass"></i> </a>
@@ -40,16 +99,23 @@
 						<div class="posts">
 							<article>
 								<h3 style="margin: 0;">La última herramienta para artistas</h3>
-								<h4 style="margin-bottom: 0.5em; font-weight: 500; font-weight: 500;"> by Facundo Paz Fessia </h4>
+								<h4 style="margin-bottom: 0.5em; font-weight: 500; font-weight: 500;"> by Facundo Paz
+									Fessia </h4>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span
+												class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span
+												class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-twitter"><span
+												class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-linkedin"><span
+												class="label">Linkedin</span></a></li>
 								</ul>
 								<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-								
-								<p>Sumérgete en el mundo de la creatividad con la última herramienta para artistas. Combina tecnología de vanguardia y expresión artística para llevar tus creaciones a un nivel completamente nuevo.</p>
+
+								<p>Sumérgete en el mundo de la creatividad con la última herramienta para artistas.
+									Combina tecnología de vanguardia y expresión artística para llevar tus creaciones a
+									un nivel completamente nuevo.</p>
 								<ul class="actions">
 									<li><a href="#" class="button">Ver mas</a></li>
 								</ul>
@@ -58,14 +124,20 @@
 								<h3 style="margin: 0;">Inspiración digital</h3>
 								<h4 style="margin-bottom: 0.5em; font-weight: 500;"> by Nicolás Mingorance </h4>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span
+												class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span
+												class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-twitter"><span
+												class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-linkedin"><span
+												class="label">Linkedin</span></a></li>
 								</ul>
 								<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-								
-								<p>Explora la fuente inagotable de inspiración digital, donde la inteligencia artificial y el arte convergen para despertar tu imaginación y desatar tu potencial creativo.</p>
+
+								<p>Explora la fuente inagotable de inspiración digital, donde la inteligencia artificial
+									y el arte convergen para despertar tu imaginación y desatar tu potencial creativo.
+								</p>
 								<ul class="actions">
 									<li><a href="#" class="button">Ver mas</a></li>
 								</ul>
@@ -74,14 +146,20 @@
 								<h3 style="margin: 0;">Trazos digitales y creatividad</h3>
 								<h4 style="margin-bottom: 0.5em; font-weight: 500;"> by María García </h4>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span
+												class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span
+												class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-twitter"><span
+												class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-linkedin"><span
+												class="label">Linkedin</span></a></li>
 								</ul>
 								<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-								
-								<p>Embárcate en un viaje de trazos digitales y creatividad sin límites, donde la tecnología se entrelaza con el arte para dar vida a nuevas formas de expresión y experiencias visuales cautivadoras.</p>
+
+								<p>Embárcate en un viaje de trazos digitales y creatividad sin límites, donde la
+									tecnología se entrelaza con el arte para dar vida a nuevas formas de expresión y
+									experiencias visuales cautivadoras.</p>
 								<ul class="actions">
 									<li><a href="#" class="button">Ver mas</a></li>
 								</ul>
@@ -90,14 +168,20 @@
 								<h3 style="margin: 0;">Arte en evolución</h3>
 								<h4 style="margin-bottom: 0.5em; font-weight: 500;"> by Juan López </h4>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span
+												class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span
+												class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-twitter"><span
+												class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-linkedin"><span
+												class="label">Linkedin</span></a></li>
 								</ul>
 								<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-								
-								<p>Adéntrate en el fascinante mundo del arte en evolución, donde la tradición se fusiona con la innovación, y descubre cómo la creatividad se reinventa constantemente para inspirar y sorprender.</p>
+
+								<p>Adéntrate en el fascinante mundo del arte en evolución, donde la tradición se fusiona
+									con la innovación, y descubre cómo la creatividad se reinventa constantemente para
+									inspirar y sorprender.</p>
 								<ul class="actions">
 									<li><a href="#" class="button">Ver mas</a></li>
 								</ul>
@@ -106,14 +190,20 @@
 								<h3 style="margin: 0;">Una herramienta imperdible</h3>
 								<h4 style="margin-bottom: 0.5em; font-weight: 500;"> by Ana Fernández </h4>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span
+												class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span
+												class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-twitter"><span
+												class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-linkedin"><span
+												class="label">Linkedin</span></a></li>
 								</ul>
 								<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-								
-								<p>Deslúmbrate con una herramienta increíble que potencia tu creatividad y libera tu imaginación, permitiéndote explorar nuevos horizontes artísticos con sus funciones innovadoras y sorprendentes.</p>
+
+								<p>Deslúmbrate con una herramienta increíble que potencia tu creatividad y libera tu
+									imaginación, permitiéndote explorar nuevos horizontes artísticos con sus funciones
+									innovadoras y sorprendentes.</p>
 								<ul class="actions">
 									<li><a href="#" class="button">Ver mas</a></li>
 								</ul>
@@ -122,28 +212,36 @@
 								<h3 style="margin: 0;">Trazos virtuales, emociones reales</h3>
 								<h4 style="margin-bottom: 0.5em; font-weight: 500;"> by Laura González </h4>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span
+												class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span
+												class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-twitter"><span
+												class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-linkedin"><span
+												class="label">Linkedin</span></a></li>
 								</ul>
 								<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-								
-								<p>Sumérgete en el mundo de los trazos virtuales, donde las emociones cobran vida. Explora cómo la tecnología se fusiona con el arte para transmitir sentimientos auténticos y crear experiencias visuales impactantes.</p>
+
+								<p>Sumérgete en el mundo de los trazos virtuales, donde las emociones cobran vida.
+									Explora cómo la tecnología se fusiona con el arte para transmitir sentimientos
+									auténticos y crear experiencias visuales impactantes.</p>
 								<ul class="actions">
 									<li><a href="#" class="button">Ver mas</a></li>
 								</ul>
 							</article>
-							
-							
+
+
 						</div>
 						<hr>
 
 						<div style="display: flex; justify-content: center; align-items: center; margin: 3em 0 0 0;">
 							<ul class="pagination">
-								<li><span class="button disabled"><<</span></li>
+								<li><span class="button disabled">
+										<<< /span>
+								</li>
 								<li><a href="#" class="page active">1</a></li>
-								<li><a href="#" class="page">2</a></li>					
+								<li><a href="#" class="page">2</a></li>
 								<li><span>&hellip;</span></li>
 								<li><a href="#" class="page">9</a></li>
 								<li><a href="#" class="page">10</a></li>
@@ -153,12 +251,12 @@
 
 					</section>
 
-					
 
-					
+
+
 
 				</section>
-				
+
 			</div>
 		</div>
 
@@ -180,9 +278,8 @@
 								<li><a href="cerebro.html">El cerebro</a></li>
 								<li><a href="ia.html">Inteligencia Artificial</a></li>
 								<li><a href="solucionesia.html">Soluciones con IA</a></li>
-								<li><a
-									href="https://drive.google.com/file/d/1HOmK0K9SKpxEcibNAazl6xnPbvVnGdJg/view?usp=sharing"
-									target="_blank"> Link Paper </a></li>
+								<li><a href="https://drive.google.com/file/d/1HOmK0K9SKpxEcibNAazl6xnPbvVnGdJg/view?usp=sharing"
+										target="_blank"> Link Paper </a></li>
 							</ul>
 						</li>
 						<li><a class="active" href="blog.html">Blog</a></li>
@@ -192,10 +289,11 @@
 				</nav>
 
 
-				
+
 
 				<footer id="footer">
-					<p class="copyright">&copy; Creatividad e Innovación en la Ingeniería - Junio 2023 - Paz Fessia & Mingorance </p>
+					<p class="copyright">&copy; Creatividad e Innovación en la Ingeniería - Junio 2023 - Paz Fessia &
+						Mingorance </p>
 				</footer>
 
 			</div>
@@ -209,6 +307,33 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script>
+		// Get the modal
+		var modal = document.getElementById("myModal");
+
+		// Get the button that opens the modal
+		var btn = document.getElementById("myBtn");
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks the button, open the modal 
+		btn.onclick = function () {
+			modal.style.display = "flex";
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function () {
+			modal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function (event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
 
 </body>
 
