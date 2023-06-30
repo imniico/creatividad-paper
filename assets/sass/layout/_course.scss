@@ -1,0 +1,50 @@
+.course {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: _palette(accent);
+    border-radius: 10px;
+    margin: 2em 0;
+
+
+    div {
+        padding: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            color: white;
+            margin: 0;
+        }
+    }
+
+
+    @include breakpoint("<=large") {
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1em;
+        }
+    }
+
+
+}
+.cursos{
+    li{
+        cursor: pointer;
+        i{
+            padding-right: 10px;
+        }
+    }
+    .active {
+        color: _palette(accent);
+    }
+}
+
+iframe{
+    aspect-ratio: 5/3;
+    width: 100%;
+}
